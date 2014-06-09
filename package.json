@@ -7,7 +7,6 @@
         "url": "git@heroku.com:phonegap-app-heroku.git"
     },
     "private": "true",
-    "main": "./lib/index.js",
     "scripts": {
         "start": "node ./lib/index.js"
     },
