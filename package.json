@@ -1,0 +1,31 @@
+{
+    "name": "phonegap-app-heroku",
+    "description": "Template for deploying a hosted app to Heroku.",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git@heroku.com:phonegap-app-heroku.git"
+    },
+    "private": "true",
+    "main": "./lib/index.js",
+    "scripts": {
+        "start": "node ./lib/index.js"
+    },
+    "engines": {
+        "node": ">=0.8.0",
+        "npm": ">=1.1.0"
+    },
+    "dependencies": {
+        "connect": "2.15.0",
+        "connect-phonegap": "0.9.1"
+    },
+    "devDependencies": {
+    },
+    "contributors": [
+        {
+            "name": "Michael Brooks",
+            "email": "michael@michaelbrooks.ca",
+            "url": "http://michaelbrooks.ca/"
+        }
+    ]
+}
